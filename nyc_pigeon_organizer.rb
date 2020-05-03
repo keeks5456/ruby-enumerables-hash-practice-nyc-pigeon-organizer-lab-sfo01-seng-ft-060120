@@ -20,4 +20,5 @@ end
 
 
 # first off we create a new hash to store our data in.
-# is our data hash we must iterate over the :color, :gender: and :lives along with their values
+# is our data hash we must iterate over the :color, :gender: and :lives -- i.e (color_gender_live); along with their key/value pairs i.e(info)
+#we then want to iterate over our info(keys) and find the names(name) inside of them
