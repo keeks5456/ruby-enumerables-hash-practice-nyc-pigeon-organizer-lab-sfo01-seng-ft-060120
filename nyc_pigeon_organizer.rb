@@ -6,7 +6,7 @@ data.each do |color_gender_live, info|
     names.each do |name|
       if pigeon_names[name] == nil 
         pigeon_names[name] = {}
-        binding.pry
+        # binding.pry
     end 
     if pigeon_names[name][color_gender_live] == nil
       pigeon_names[name][color_gender_live] = []
